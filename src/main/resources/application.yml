@@ -1,0 +1,25 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/alswo?serverTimezone=UTC&characterEncoding=UTF-8
+    username: root
+    password: '0000'
+
+    thymeleaf:
+      prefix: classpath:/templates/
+      suffix: .html
+      mode: HTML5
+
+    output:
+      ansi:
+        enabled: ALWAYS
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    # OSIV(Oepn Session In View : off)
+    open-in-view: false
+    show-sql: true
