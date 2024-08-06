@@ -19,7 +19,6 @@ public class UserController {
         model.addAttribute("안녕 ㅋㅋ", "spring !!");
         System.out.println("@@@@@@@@");
         System.out.println("@@@@@@@@");
-        System.out.println("@@@@@@@@");
         return "hello/hello";
     }
 }
