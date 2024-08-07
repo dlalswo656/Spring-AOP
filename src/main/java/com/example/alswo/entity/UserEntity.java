@@ -20,4 +20,8 @@ public class UserEntity {
 
     @Column
     private String phone;
+
+    @Column
+    private String email;
+
 }
